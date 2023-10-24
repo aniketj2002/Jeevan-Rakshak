@@ -1,0 +1,80 @@
+.ce-chat-title-text{
+    
+    text-transform: capitalize !important;
+}
+.ce-chat-subtitle-text{
+    
+    text-transform: capitalize !important;
+}
+.ce-my-message-bubble {
+    background: #f45454 !important;
+}
+
+.ce-chats-container input{
+    margin: 10px !important;
+    border: 1px solid #f45454;
+    border-radius: 10px;
+    padding: 10px;
+    color: #f45454;
+}
+.ce-chats-container button{
+    margin: 10px !important;
+    border: 1px solid #f45454;
+    border-radius: 10px;
+    padding: 10px;
+    color: #f45454;
+}
+.ce-message-bubble{
+    background-color: #f45454 !important;
+  } 
+  
+  .ce-chat-title{
+  border-bottom: #282c34;
+  }
+  #ce-feed-container{ 
+    background-image: url('../public/images/chat_background.png');
+    background-position: center;
+  }
+  
+  .ce-their-message-bubble{
+    background-color: #fedcdc !important;
+    color: rgb(55, 54, 54) !important;
+  }
+  
+  .ce-chat-title-container{
+   
+    text-align: left !important;
+    padding-left: 20px !important;
+    backdrop-filter: blur(5px) !important;
+  }
+  /* .ce-their-message-sender{
+    display: none !important;
+  }
+  .ce-their-reads-row{
+    display: none !important;
+  } */
+  .ce-wrapper ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .ce-wrapper ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .ce-wrapper ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .ce-wrapper ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  /* .ce-chats-container > div > div>input{
+    display: none !important;
+  }
+  .ce-chats-container > div > div>button{
+    display: none !important;
+  } */
