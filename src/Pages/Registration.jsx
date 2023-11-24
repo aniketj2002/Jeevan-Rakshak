@@ -34,7 +34,7 @@ export default function Registration() {
 
       await axios.post('https://api.chatengine.io/users/' , data , {
         headers : { 
-          'PRIVATE-KEY': '{0bb6fb28-2ba6-41b1-b142-da4a18c4ceb0}'
+          'PRIVATE-KEY': '{dc6723ac-4462-4ab7-b525-69fba167b5d2}'
         }
       })
       navigate("/login");
