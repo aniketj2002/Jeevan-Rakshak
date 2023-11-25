@@ -10,7 +10,7 @@ export default function Registration() {
     lastName: "",
     email: "",
     password: "",
-    bloodGrp: "",
+    bloodGrp: "A+",
     pincode: "",
   });
   
